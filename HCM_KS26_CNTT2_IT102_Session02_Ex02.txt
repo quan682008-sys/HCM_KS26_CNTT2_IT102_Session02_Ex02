@@ -1,0 +1,43 @@
+﻿Phần 1: Phân tích vấn đề
+Có 4 dòng phân loại sai: 1, 2, 4 và 5.
+-Dòng 1: Không có ví dụ mẫu nhưng lại ghi Few-shot → Sai, phải là Zero-shot.
+-Dòng 2: Không đưa ví dụ mẫu nhưng ghi One-shot → Sai, phải là Zero-shot.
+-Dòng 4: Có 3 ví dụ mẫu nhưng ghi Zero-shot → Sai, phải là Few-shot.
+-Dòng 5: Không có ví dụ mẫu nhưng ghi Few-shot → Sai, phải là Zero-shot.
+Dòng 3 và 6 đã được phân loại đúng vì mỗi câu lệnh đều có 1 ví dụ mẫu.
+Phần 2: Bảng phân loại Prompting hoàn chỉnh
+STT
+	Phân loại hiện tại
+	Phân loại đúng
+	Số ví dụ mẫu
+	Đánh giá
+	1
+	Few-shot
+	Zero-shot
+	0
+	Sai
+	2
+	One-shot
+	Zero-shot
+	0
+	Sai
+	3
+	One-shot
+	One-shot
+	1
+	Đúng
+	4
+	Zero-shot
+	Few-shot
+	3 (nhiều)
+	Sai
+	5
+	Few-shot
+	Zero-shot
+	0
+	Sai
+	6
+	One-shot
+	One-shot
+	1
+	Đúng
